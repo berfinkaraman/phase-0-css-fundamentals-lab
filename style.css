@@ -3,3 +3,40 @@ body {
   height: 100%;
   margin: 0;
 }
+
+h1 {
+  text-align: center;
+}
+
+img {
+  align-self: center;
+  }
+
+  a {
+    padding-left: 10px;
+    padding-right: 10px;
+    background: grey;
+  }
+
+figcaption {
+  font-size: 10px;
+  text-align: center;
+}
+
+#featured-property {
+  text-align: center;
+  width: 800px;
+}
+
+#details {
+  float:left;
+  display: grid;
+  grid-template-rows: 25% 25% 25% 25%;
+}
+div {
+
+  width: 25%;
+  background: red;
+  text-align: center;
+}
+
